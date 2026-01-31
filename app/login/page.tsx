@@ -1,5 +1,7 @@
 'use client'
 
+export const dynamic = 'force-dynamic'
+
 import Link from 'next/link'
 import { login } from './actions'
 import { Zap, Mail, Lock, ArrowRight, Eye, EyeOff } from 'lucide-react'
